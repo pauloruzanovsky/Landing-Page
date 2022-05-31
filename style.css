@@ -3,6 +3,9 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
 }
 
 un {
@@ -56,6 +59,11 @@ a {
 
 .hero1 {
     margin-right: 30px;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .hero-title {
     font-size: 48px;
@@ -76,11 +84,12 @@ a {
     font-weight: bold;
     margin-top: 10px;
     border: 0px;
+    align-self: flex-start;
 }
 
 .hero-image {
     background-color: rgb(101, 101, 124);
-    width: 650px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
